@@ -6,6 +6,7 @@ import Posts from '../Posts/Posts'
 import useStyles from './style';
 import { useDispatch } from 'react-redux'
 import { getPosts } from '../../action/posts'
+import './main.css';
 
 export default function Main() {
   const [currentId, setCurrentId] = useState(0)
