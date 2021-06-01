@@ -12,7 +12,9 @@ export default function Posts({setCurrentId}) {
   // console.log(posts)
     return (
         
-        !posts.length ? <><CircularProgress /> <Typography>No post yet</Typography></>: (
+        !posts.length ? <>
+        <CircularProgress /> <Typography>No post yet</Typography>
+        </>: (
           <Grid className = {classes.container} container alignItems="stretch" spacing={3}>
             {posts.map((post) => {
               return <> 
