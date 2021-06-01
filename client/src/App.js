@@ -13,8 +13,6 @@ import Register from './components/Register/Register'
 import Main from './components/Main/Main'
 
 export default function App() {
-
-
     return (
       <BaseLayout>
         <Switch>
