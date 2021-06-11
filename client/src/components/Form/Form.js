@@ -38,7 +38,6 @@ export default function Form({ currentId, setCurrentId, reset}) {
       setPostData({ creator: '', title: '', message: '', tags: '', selectedFile: '' });
     };
 
-
     return (
         <Paper className={classes.paper}>
       <form autoComplete="off" noValidate className={`${classes.root} ${classes.form}`} onSubmit={handleSubmit}>

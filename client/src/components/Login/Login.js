@@ -23,7 +23,7 @@ export default function Login() {
     <CssBaseline />
     <div className={classes.paper}>
       <Typography component="h1" variant="h4">
-        OKEY DOKEY DOT
+        OKEY_DOKEY_DOT
       </Typography>  
       <Avatar className={classes.avatar}>
         <LockOutlinedIcon />
