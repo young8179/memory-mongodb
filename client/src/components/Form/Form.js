@@ -12,7 +12,6 @@ export default function Form({ currentId, setCurrentId, reset}) {
     // post = find only 1 post 
     const post = useSelector((state) => currentId ? state.posts.find((p) => p._id === currentId ) : null );
     const dispatch = useDispatch()
-    console.log(currentId)
     
     useEffect(() => {
       if (post){
